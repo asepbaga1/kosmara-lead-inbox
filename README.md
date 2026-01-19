@@ -1,5 +1,12 @@
 # Welcome to your Lovable project
-
+masukan ke form chat lovable.dev biar otomatis tambahkan CSS rule untuk hide Lovable badge.
+Add to the CSS to globally hide anything with the ID lovable-badge,
+ 
+misalnya di src/index.css ,
+ /* Hide Lovable badge */
+#lovable-badge {
+  display: none !important;
+}
 ## Project info
 
 **URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
