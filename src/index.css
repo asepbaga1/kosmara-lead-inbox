@@ -209,6 +209,11 @@
   @apply bg-muted-foreground/30 rounded-full hover:bg-muted-foreground/50 transition-colors;
 }
 
+/* Hide Lovable badge */
+#lovable-badge {
+  display: none !important;
+}
+
 /* Chat bubble styles */
 .chat-bubble-user {
   @apply bg-primary text-primary-foreground rounded-2xl rounded-br-md px-4 py-3;
